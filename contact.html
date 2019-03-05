@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>SGI - Super Glass Industry</title>	
+		<title>Contact Us</title>	
 
 		<meta name="keywords" content="Super Glass Industry" />
 		<meta name="description" content="Saudi Arabia">
@@ -101,7 +101,7 @@
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
 													<li>
-														<a class="nav-link active" href="index.html">
+														<a class="nav-link" href="index.html">
 															<i class="fas fa-home"></i>&ensp; Home
 														</a>
 													</li>
@@ -127,7 +127,7 @@
 														</ul>
 													</li>
 													<li>
-														<a class="nav-link" href="contact.html">
+														<a class="nav-link active" href="contact.html">
 															<i class="fas fa-envelope"></i>&ensp; Contact
 														</a>
 													</li>
@@ -151,184 +151,99 @@
 			</header>
 
 			<div role="main" class="main">
-				<div class="slider-container rev_slider_wrapper" style="height: 670px;">
-					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1400, 'gridheight': 600, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
-						<ul>
+
+				<section class="page-header page-header-classic page-header-sm">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+								<h1 data-title-border>Contact Us</h1>
+							</div>
 							
-							<li class="opacity-7" data-transition="fade">
-								<img src="img/slides/slide-bg-2.jpg"  
-									alt=""
-									data-bgposition="center center" 
-									data-bgfit="cover" 
-									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
-							</li>
-							<li data-transition="fade">
-								<img src="img/slides/01.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-									data-bgrepeat="no-repeat" class="rev-slidebg">
-							</li>
-							<li  data-transition="fade">
-								<img src="img/slides/02.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-									data-bgrepeat="no-repeat" class="rev-slidebg">
-							</li>
-							<li  data-transition="fade">
-								<img src="img/slides/03.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-									data-bgrepeat="no-repeat" class="rev-slidebg">
-							</li>
-							<li  data-transition="fade">
-								<img src="img/slides/04.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-									data-bgrepeat="no-repeat" class="rev-slidebg">
-							</li>
-							<li  data-transition="fade">
-								<img src="img/slides/05.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-									data-bgrepeat="no-repeat" class="rev-slidebg">
-							</li>
-							<li  data-transition="fade">
-								<img src="img/slides/06.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-									data-bgrepeat="no-repeat" class="rev-slidebg">
-							</li>
-						</ul>
+						</div>
 					</div>
+				</section>
+
+				<div class="container">
+
+					<div class="row py-4">
+						<div class="col-lg-6">
+
+							<div class="overflow-hidden mb-1">
+								<h2 class="font-weight-normal text-7 mt-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200"><strong class="font-weight-extra-bold">Contact Us</strong></h2>
+							</div>
+							<div class="overflow-hidden mb-4 pb-3">
+								<p class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">Feel free to ask for details, don't save any questions!</p>
+							</div>
+
+							<form id="contactForm" class="contact-form appear-animation" action="php/contact-form.php" method="POST" data-appear-animation="fadeIn" data-appear-animation-delay="600">
+								<div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
+									<strong>Success!</strong> Your message has been sent to us.
+								</div>
+
+								<div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
+									<strong>Error!</strong> There was an error sending your message.
+									<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
+								</div>
+								
+								<div class="form-row">
+									<div class="form-group col-lg-6">
+										<label class="required font-weight-bold text-dark">Full Name</label>
+										<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+									</div>
+									<div class="form-group col-lg-6">
+										<label class="required font-weight-bold text-dark">Email Address</label>
+										<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<label class="font-weight-bold text-dark">Subject</label>
+										<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<label class="required font-weight-bold text-dark">Message</label>
+										<textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control" name="message" id="message" required></textarea>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<input type="submit" value="Send Message" class="btn btn-primary btn-modern" data-loading-text="Loading...">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-lg-6">
+							<br><br><br><br>
+							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="800">
+								<h4 class="mt-2 mb-1"><strong>Our Office</strong></h4>
+								<ul class="list list-icons list-icons-style-2 mt-2">
+									<li><i class="fas fa-map-marker-alt top-6"></i> <strong class="text-dark">Address:</strong> Saudi German Aluminium Products Co. Ltd Phase 3, Industrial City Sinayah P.O Box 8378 Jeddah 21482 K.S.A.</li>
+									<li><i class="fas fa-phone top-6"></i> <strong class="text-dark">Phone:</strong> +966 012 6355425</li>
+									<li><i class="fas fa-fax top-6"></i> <strong class="text-dark">Fax:</strong> +966 012 6081752</li>
+									<li><i class="fas fa-envelope top-6"></i> <strong class="text-dark">Email:</strong> <a href="info@sgi-ksa.com">mail@example.com</a></li>
+								</ul>
+							</div>
+							
+							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="950">
+								<h4 class="pt-5"><strong>Business Hours</strong></h4>
+								<ul class="list list-icons list-dark mt-2">
+									<li><i class="far fa-clock top-6"></i> Sunday - Thursday - 08:00 AM to 06:00 PM</li>
+									
+									<li><i class="far fa-clock top-6"></i> Friday - Saturday <strong>(Closed)</strong></li>
+								</ul>
+							</div>
+
+							
+
+						</div>
+
+					</div>
+
 				</div>
 
-				
-				<div class="container">
-				
-					<div class="row text-center pt-4">
-						<div class="col">
-							<h2 class="word-rotator slide font-weight-bold text-8 mb-2">
-								<span>What we care about is </span>
-								<span class="word-rotator-words bg-primary">
-									<b class="is-visible">quality</b>
-									<b>service</b>
-								</span>
-								<span> , check our high quality products...</span>
-						</div>
-					</div>
-				
-				</div>
-				
-				<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
-					<div class="home-concept mt-5">
-						<div class="container">
-				
-							<div class="row text-center">
-								<span class="sun"></span>
-								<span class="cloud"></span>
-								<div class="col-lg-2 ml-lg-auto">
-									<div class="process-image">
-										<img src="img/projects/0a.png" alt="" />
-										
-									</div>
-									<h2>Strategy</h2>
-								</div>
-								<div class="col-lg-2">
-									<div class="process-image process-image-on-middle">
-										<img src="img/projects/0c.png" alt="" />
-										
-									</div>
-									<h2>Planing</h2>
-								</div>
-								<div class="col-lg-2">
-									<div class="process-image">
-										<img src="img/projects/0b.png" alt="" />
-										
-									</div>
-									<h2>Build</h2>
-								</div>
-								<div class="col-lg-4 ml-lg-auto">
-									<div class="project-image">
-										<div id="fcSlideshow" class="fc-slideshow">
-											<ul class="fc-slides">
-												<li><a href="portfolio-single-wide-slider.html"><img width="340" height="340" src="img/projects/pg01.jpg" alt="" /></a></li>
-												<li><a href="portfolio-single-wide-slider.html"><img width="340" height="340" src="img/projects/pg02.png" alt="" /></a></li>
-												<li><a href="portfolio-single-wide-slider.html"><img width="340" height="340" src="img/projects/pg03.jpg" alt="" /></a></li>
-											</ul>
-										</div>
-										
-									</div>
-								</div>
-							</div>
-				
-						</div>
-					</div>
-				</div>
-				
-				<div class="container mb-5 pb-4">
-				
-					<div class="row">
-						<div class="col mb-4">
-							<hr class="my-5">
-						</div>
-					</div>
-				
-					
-				
-					<div class="row pt-4">
-						<div class="col">
-							<h2 class="mb-0 text-color-dark">Clients</h2>
-							<br>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 text-center">
-							<div class="owl-carousel owl-theme stage-margin rounded-nav"
-								data-plugin-options="{'margin': 10, 'loop': true, 'nav': true, 'dots': false, 'stagePadding': 40, 'items': 6, 'autoplay': true, 'autoplayTimeout': 3000}">
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust18-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust02-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust03-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust04-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust05-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust06-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust07-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust08-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust09-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust10-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust12-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust14-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust13-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust15-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust17-min.jpg" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				
-				</div>
-				
-				
-				
 			</div>
- 
 			<footer id="footer" class="bg-color-primary border-top-0">
 				<div class="container py-4">
 					<div class="row py-5">
