@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Contact Us</title>
+    <title>Our Products</title>
 
     <meta name="keywords" content="Super Glass Industry" />
     <meta name="description" content="Saudi Arabia" />
@@ -176,7 +176,7 @@
                           </li>
                           <li class="dropdown">
                             <a
-                              class="nav-link dropdown-toggle"
+                              class="nav-link dropdown-toggle active"
                               href="products.html"
                             >
                               <i class="fas fa-box-open"></i>&ensp; Products
@@ -206,7 +206,7 @@
                             </ul>
                           </li>
                           <li>
-                            <a class="nav-link active" href="contact.html">
+                            <a class="nav-link" href="contact.html">
                               <i class="fas fa-envelope"></i>&ensp; Contact
                             </a>
                           </li>
@@ -254,7 +254,9 @@
             </div>
           </div>
         </div>
-      </header>
+	  </header>
+	  
+	  
 
       <div role="main" class="main">
         <section class="page-header page-header-classic page-header-sm">
@@ -263,190 +265,98 @@
               <div
                 class="col-md-8 order-2 order-md-1 align-self-center p-static"
               >
-                <h1 data-title-border>Contact Us</h1>
+                <h1 data-title-border>Our Products</h1>
               </div>
             </div>
           </div>
-        </section>
+		</section>
+		
+		
 
-        <div class="container">
-          <div class="row py-4">
-            <div class="col-lg-6">
-              <div class="overflow-hidden mb-1">
-                <h2
-                  class="font-weight-normal text-7 mt-2 mb-0 appear-animation"
-                  data-appear-animation="maskUp"
-                  data-appear-animation-delay="200"
-                >
-                  <strong class="font-weight-extra-bold">Contact Us</strong>
-                </h2>
-              </div>
-              <div class="overflow-hidden mb-4 pb-3">
-                <p
-                  class="mb-0 appear-animation"
-                  data-appear-animation="maskUp"
-                  data-appear-animation-delay="400"
-                >
-                  Feel free to ask for details, don't save any questions!
-                </p>
-              </div>
+		<div class="container py-2">
+		
+			<div class="row">
+				<div class="col">
+		
+				
+		
+					<ul class="nav nav-pills sort-source sort-source-style-3 justify-content-center" data-sort-id="portfolio"
+						data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
+						<li class="nav-item active" data-option-value="*"><a class="nav-link text-1 text-uppercase active"
+								href="#">Show All</a></li>
+						<li class="nav-item" data-option-value=".temp"><a class="nav-link text-1 text-uppercase"
+								href="#">Strengthened & Tempered Glass</a></li>
+						<li class="nav-item" data-option-value=".sky"><a class="nav-link text-1 text-uppercase"
+								href="#">Skylight Glass</a></li>
+						<li class="nav-item" data-option-value=".fire"><a class="nav-link text-1 text-uppercase"
+								href="#">Fire Resistant Glass</a></li>
+						<li class="nav-item" data-option-value=".lam"><a class="nav-link text-1 text-uppercase"
+								href="#">Laminated Glass</a></li>
+						<li class="nav-item" data-option-value=".priv"><a class="nav-link text-1 text-uppercase" href="#">Privacy Glass</a>
+						</li>
+						<li class="nav-item" data-option-value=".bullet"><a class="nav-link text-1 text-uppercase" href="#">Bullet Resustant Glass</a>
+						</li>
+					</ul>
+		
 
-              <form
-                id="contactForm"
-                class="contact-form appear-animation"
-                action="php/contact-form.php"
-                method="POST"
-                data-appear-animation="fadeIn"
-                data-appear-animation-delay="600"
-              >
-                <div
-                  class="contact-form-success alert alert-success d-none mt-4"
-                  id="contactSuccess"
-                >
-                  <strong>Success!</strong> Your message has been sent to us.
-                </div>
-
-                <div
-                  class="contact-form-error alert alert-danger d-none mt-4"
-                  id="contactError"
-                >
-                  <strong>Error!</strong> There was an error sending your
-                  message.
-                  <span
-                    class="mail-error-message text-1 d-block"
-                    id="mailErrorMessage"
-                  ></span>
-                </div>
-
-                <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <label class="required font-weight-bold text-dark"
-                      >Full Name</label
-                    >
-                    <input
-                      type="text"
-                      value=""
-                      data-msg-required="Please enter your name."
-                      maxlength="100"
-                      class="form-control"
-                      name="name"
-                      id="name"
-                      required
-                    />
-                  </div>
-                  <div class="form-group col-lg-6">
-                    <label class="required font-weight-bold text-dark"
-                      >Email Address</label
-                    >
-                    <input
-                      type="email"
-                      value=""
-                      data-msg-required="Please enter your email address."
-                      data-msg-email="Please enter a valid email address."
-                      maxlength="100"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="form-group col">
-                    <label class="font-weight-bold text-dark">Subject</label>
-                    <input
-                      type="text"
-                      value=""
-                      data-msg-required="Please enter the subject."
-                      maxlength="100"
-                      class="form-control"
-                      name="subject"
-                      id="subject"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="form-group col">
-                    <label class="required font-weight-bold text-dark"
-                      >Message</label
-                    >
-                    <textarea
-                      maxlength="5000"
-                      data-msg-required="Please enter your message."
-                      rows="8"
-                      class="form-control"
-                      name="message"
-                      id="message"
-                      required
-                    ></textarea>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="form-group col">
-                    <input
-                      type="submit"
-                      value="Send Message"
-                      class="btn btn-primary btn-modern"
-                      data-loading-text="Loading..."
-                    />
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="col-lg-6">
-              <br /><br /><br /><br />
-              <div
-                class="appear-animation"
-                data-appear-animation="fadeIn"
-                data-appear-animation-delay="800"
-              >
-                <h4 class="mt-2 mb-1"><strong>Our Office</strong></h4>
-                <ul class="list list-icons list-icons-style-2 mt-2">
-                  <li>
-                    <i class="fas fa-map-marker-alt top-6"></i>
-                    <strong class="text-dark">Address:</strong> Saudi German
-                    Aluminium Products Co. Ltd Phase 3, Industrial City Sinayah
-                    P.O Box 8378 Jeddah 21482 K.S.A.
-                  </li>
-                  <li>
-                    <i class="fas fa-phone top-6"></i>
-                    <strong class="text-dark">Phone:</strong> +966 012 6355425
-                  </li>
-                  <li>
-                    <i class="fas fa-fax top-6"></i>
-                    <strong class="text-dark">Fax:</strong> +966 012 6081752
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope top-6"></i>
-                    <strong class="text-dark">Email:</strong>
-                    <a href="mailto:ibrahim@sgi-ksa.com">info@sgi-ksa.com</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div
-                class="appear-animation"
-                data-appear-animation="fadeIn"
-                data-appear-animation-delay="950"
-              >
-                <h4 class="pt-5"><strong>Business Hours</strong></h4>
-                <ul class="list list-icons list-dark mt-2">
-                  <li>
-                    <i class="far fa-clock top-6"></i> Sunday - Thursday - 08:00
-                    AM to 06:00 PM
-                  </li>
-
-                  <li>
-                    <i class="far fa-clock top-6"></i> Friday - Saturday
-                    <strong>(Closed)</strong>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+					<div class="sort-destination-loader sort-destination-loader-showing mt-4 pt-2">
+						<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item temp">
+								<div class="portfolio-item">
+									<a class="img-thumbnail img-thumbnail-no-borders d-block img-thumbnail-hover-icon lightbox"
+										href="img/projects/project-4.jpg" data-plugin-options="{'type':'image'}">
+										<img class="img-fluid" src="img/projects/project-4.jpg" alt="Project Image">
+									</a>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item sky">
+								<div class="portfolio-item">
+									<a class="img-thumbnail img-thumbnail-no-borders d-block img-thumbnail-hover-icon lightbox"
+										href="img/projects/project-4.jpg" data-plugin-options="{'type':'image'}">
+										<img class="img-fluid" src="img/projects/project-4.jpg" alt="Project Image">
+									</a>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item fire">
+								<div class="portfolio-item">
+									<a class="img-thumbnail img-thumbnail-no-borders d-block img-thumbnail-hover-icon lightbox"
+										href="img/projects/project-4.jpg" data-plugin-options="{'type':'image'}">
+										<img class="img-fluid" src="img/projects/project-4.jpg" alt="Project Image">
+									</a>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item lam">
+								<div class="portfolio-item">
+									<a class="img-thumbnail img-thumbnail-no-borders d-block img-thumbnail-hover-icon lightbox"
+										href="img/projects/project-4.jpg" data-plugin-options="{'type':'image'}">
+										<img class="img-fluid" src="img/projects/project-4.jpg" alt="Project Image">
+									</a>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item priv">
+								<div class="portfolio-item">
+									<a class="img-thumbnail img-thumbnail-no-borders d-block img-thumbnail-hover-icon lightbox"
+										href="img/projects/project-4.jpg" data-plugin-options="{'type':'image'}">
+										<img class="img-fluid" src="img/projects/project-4.jpg" alt="Project Image">
+									</a>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-lg-3 isotope-item bullet">
+								<div class="portfolio-item">
+									<a class="img-thumbnail img-thumbnail-no-borders d-block img-thumbnail-hover-icon lightbox"
+										href="img/projects/project-4.jpg" data-plugin-options="{'type':'image'}">
+										<img class="img-fluid" src="img/projects/project-4.jpg" alt="Project Image">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+				
+			
       <footer id="footer" class="bg-color-primary border-top-0">
         <div class="container py-4">
           <div class="row py-5">
@@ -509,9 +419,7 @@
                 <li class="mb-1">
                   <i class="far fa-envelope text-color-light"></i>
                   <p class="m-0">
-                    <a
-                      class="text-color-light"
-                      href="mailto:ibrahim@sgi-ksa.com"
+                    <a class="text-color-light" href="mailto:ibrahim@sgi-ksa.com"
                       >info@sgi-ksa.com</a
                     >
                   </p>
