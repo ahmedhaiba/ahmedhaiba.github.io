@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html class="boxed">
+<html>
 	<head>
 
 		<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>SGI - Super Glass Industry</title>	
+		<title>Ahmed Haiba</title>	
 
-		<meta name="keywords" content="Super Glass Industry" />
-		<meta name="description" content="Saudi Arabia">
+		<meta name="keywords" content="Ahmed Haiba - Web Developer" />
+		<meta name="description" content="Resume">
 		<meta name="author" content="Ahmed Haiba">
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch.png">
+		<link rel="apple-touch-icon" href="img/ahmed-icon.jpg">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -43,13 +43,12 @@
 		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
 		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
-		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css">
 		
 		<!-- Demo CSS -->
-
+		<link rel="stylesheet" href="css/demos/demo-resume.css">
 
 		<!-- Skin CSS -->
-		<link rel="stylesheet" href="css/skins/default.css"> 
+		<link rel="stylesheet" href="css/skins/skin-resume.css"> 
 
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="css/custom.css">
@@ -58,108 +57,64 @@
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".wrapper-spy">
+
 		<div class="body">
-			<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 45, 'stickySetTop': '-45px', 'stickyChangeLogo': true}">
+			<header id="header" class="header-floating-icons" data-plugin-options="{'stickyEnabled': false, 'stickyEnableOnBoxed': false, 'stickyEnableOnMobile': false, 'stickyStartAt': 0, 'stickySetTop': '60px', 'stickyChangeLogo': false}">
 				<div class="header-body">
 					<div class="header-container container">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
-									<div class="header-logo">
-										<a href="index.html">
-											<img alt="SGI" width="100" height="70" data-sticky-width="82" data-sticky-height="60" data-sticky-top="25" src="img/logo01.png">
-										</a>
-									</div>
-									
-								</div>
-							</div>
-							<div class="header-column justify-content-end">
-								<div class="header-row pt-3">
-									<nav class="header-nav-top">
-										<ul class="nav nav-pills">
-											<li class="nav-item dropdown nav-item-left-border nav-item-left-border-remove nav-item-left-border-sm-show">
-												<a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-													<img src="img/blank.gif" class="flag flag-us" alt="English" /> English
-													<i class="fas fa-angle-down"></i>
-												</a>
-												<div class="dropdown-menu" aria-labelledby="dropdownLanguage">
-													<a class="dropdown-item" href="index.html"><img src="img/blank.gif" class="flag flag-us" alt="English" /> English</a>
-													<a class="dropdown-item" href="index-a.html"><img src="img/blank.gif" class="flag flag-sa" alt="Arabic" /> العربية</a>
-												</div>
-											</li>
-											<li class="nav-item nav-item-left-border nav-item-left-border-remove nav-item-left-border-sm-show">
-												<span class="ws-nowrap"><i class="fas fa-phone"></i> +966 012 6355425</span>
-											</li>
-										</ul>
-									</nav>
-									
-								</div>
-								<div class="header-row">
 									<div class="header-nav pt-1">
-										<div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
-											<nav class="collapse">
-												<ul class="nav nav-pills" id="mainNav">
+										<div class="header-nav-main">
+											<nav class="wrapper-spy collapse">
+												<ul class="nav" id="mainNav">
 													<li>
-														<a class="nav-link active" href="index.html">
-															<i class="fas fa-home"></i>&ensp; Home
+														<a data-hash href="#about-me" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-home icons"></i>
+															<span class="custom-tooltip">About Me</span>
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="company.html">
-															<i class="fas fa-building"></i>&ensp; Company
-														</a>
-													</li>
-													<li class="dropdown">
-														<a class="nav-link dropdown-toggle" href="products.html">
-															<i class="fas fa-box-open"></i>&ensp; Products
-														</a>
-														<ul class="dropdown-menu">
-															<li>
-																<a class="dropdown-item" href="products.html#bullet">Bullet Resistant Glass</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="products.html#fire">Fire Resistant Glass</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="products.html#lam">Laminated Glass</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="products.html#temp">Strengthened & Tempered Glass</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="products.html#priv">Privacy Glass</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="products.html#ins">Insulating Glass</a>
-															</li>
-															<li>
-																<a class="dropdown-item" href="products.html#smart">Smart Glass</a>
-															</li>
-														</ul>
-													</li>
-													<li>
-														<a class="nav-link" href="projects.html">
-															<i class="fas fa-cog"></i>&ensp; Projects
+														<a data-hash href="#experience" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-briefcase icons"></i>
+															<span class="custom-tooltip">Experience</span>
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="contact.html">
-															<i class="fas fa-envelope"></i>&ensp; Contact
+														<a data-hash href="#education" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-graduation icons"></i>
+															<span class="custom-tooltip">Education</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#skills" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-eye icons"></i>
+															<span class="custom-tooltip">Skills</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#portfolio" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-camera icons"></i>
+															<span class="custom-tooltip">Portfolio</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#blog" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-pencil icons"></i>
+															<span class="custom-tooltip">Projects</span>
+														</a>
+													</li>
+													<li>
+														<a data-hash href="#say-hello" class="nav-link text-color-dark bg-color-primary">
+															<i class="icon-envelope-open icons"></i>
+															<span class="custom-tooltip">Say Hello</span>
 														</a>
 													</li>
 												</ul>
 											</nav>
 										</div>
-										<ul class="header-social-icons social-icons d-sm-block">
-											<li class="social-icons-facebook"><a href="https://www.facebook.com/superglass.industryksa" target="_blank"
-													title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-											<li class="social-icons-twitter"><a href="https://twitter.com/SGI79858649" target="_blank" title="Twitter"><i
-														class="fab fa-twitter"></i></a></li>
-											<li class="social-icons-linkedin"><a href="#" target="_blank" title="Linkedin"><i
-														class="fab fa-linkedin-in"></i></a>
-											</li>
-										</ul>
 										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
 											<i class="fas fa-bars"></i>
 										</button>
@@ -172,266 +127,664 @@
 			</header>
 
 			<div role="main" class="main">
-				<div class="slider-container rev_slider_wrapper" style="height: 670px;">
-					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1400, 'gridheight': 600, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true }, 'bullets': {'enable': fals, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
-						<ul>
-							
-							<li class="opacity-7" data-transition="fade">
-								<img src="img/slides/slide-bg-2.jpg"  
-									alt=""
-									data-bgposition="center center" 
-									data-bgfit="cover" 
-									data-bgrepeat="no-repeat" 
-									class="rev-slidebg">
-							</li>
-							<li  data-transition="fade">
-								<img src="img/slides/04.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-									data-bgrepeat="no-repeat" class="rev-slidebg">
-							</li>
-							<li  data-transition="fade">
-								<img src="img/slides/05.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-									data-bgrepeat="no-repeat" class="rev-slidebg">
-							</li>
-							<li  data-transition="fade">
-								<img src="img/products/63b.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-									data-bgrepeat="no-repeat" class="rev-slidebg">
-							</li>
-							<li data-transition="fade">
-								<img src="img/products/64b.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-									class="rev-slidebg">
-							</li>
-						</ul>
-					</div>
-				</div>
 
-				
+			<section id="about-me" class="section section-no-border section-parallax custom-section-padding-1 custom-position-1 custom-xs-bg-size-cover parallax-no-overflow m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/demos/resume/about-me/dark.jpg">
 				<div class="container">
-				
-					<div class="row text-center pt-4">
-						<div class="col">
-							<h2 class="word-rotator slide font-weight-bold text-8 mb-2">
-								<span>What we care about is </span>
-								<span class="word-rotator-words bg-primary">
-									<b class="is-visible">quality</b>
-									<b>service</b>
+					<div class="row">
+						<div class="col-lg-4 custom-sm-margin-bottom-1">
+							<img src="img/demos/resume/about-me/a5.jpg" class="img-fluid custom-border custom-image-position-2 custom-box-shadow-4" alt />
+						</div>
+						<div class="col-lg-6 col-xl-5">
+							<h1 class="text-color-primary custom-font-size-1">Ahmed Haiba</h1>
+							<p class="text-color-light font-weight-normal custom-font-size-2 custom-margin-bottom-1">Web Developer - Photographer - Programmer</p>
+							<span class="custom-about-me-infos">
+								<span class="custom-text-color-1 text-uppercase">Jeddah - Saudi Arabia</span>
+								<span class="custom-text-color-1 text-uppercase mb-3">Al Salamah District</span>
+								<span class="custom-text-color-1 text-uppercase">
+									<strong class="text-color-light">Previous: </strong>
+									Front-End Developer at PSF
+									<a data-hash href="#experience" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
 								</span>
-								<span> , check our high quality products...</span>
+								<span class="custom-text-color-1 text-uppercase">
+									<strong class="text-color-light">Education: </strong>
+									Limkokwing
+									<a data-hash href="#education" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
+								</span>
+							</span>
+						</div>
+						<div class="col-lg-2 col-xl-3 d-none d-lg-block">
+							<img src="img/demos/resume/about-me/code.png" custom-anim class="img-fluid custom-image-pos-1" alt />
 						</div>
 					</div>
-				
 				</div>
 				
-				<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
-					<div class="home-concept mt-5">
-						<div class="container">
-				
-							<div class="row text-center">
-								<span class="sun"></span>
-								<span class="cloud"></span>
-								<div class="col-lg-2 ml-lg-auto">
-									<div class="process-image">
-										<img src="img/projects/0a.png" alt="" />
-										
+			</section>
+
+			<div class="custom-about-me-links bg-color-light">
+				<div class="container">
+					<div class="row justify-content-end">
+						<div class="col-lg-3 text-center custom-xs-border-bottom p-0">
+							<a data-hash href="#say-hello" class="text-decoration-none">
+								<span class="custom-nav-button text-color-dark">
+									<i class="icon-earphones-alt icons text-color-primary"></i>
+									Contact Information	
+								</span>
+							</a>
+						</div>
+						<div class="col-lg-2 text-center custom-xs-border-bottom p-0">
+							<a data-hash href="#say-hello" class="text-decoration-none">
+								<span class="custom-nav-button custom-divisors text-color-dark">
+									<i class="icon-envelope-open icons text-color-primary"></i>
+									Send Message	
+								</span>
+							</a>
+						</div>
+						<div class="col-lg-3 text-center p-0">
+							<a href="https://drive.google.com/open?id=1hITBMUjVs59gupVHiv6ASjzuENGxmotg" class="text-decoration-none" target="_blank">
+								<span class="custom-nav-button text-color-dark">
+									<i class="icon-cloud-download icons text-color-primary"></i>
+									Download Resume	
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="section section-no-border bg-color-light m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+
+							<div class="custom-box-details bg-color-light custom-box-shadow-1 col-lg-6 ml-5 mb-5 mb-lg-4 float-right clearfix">
+								<h4>Personal Details</h4>
+								<div class="row">
+									<div class="col-md-6">
+										<ul class="custom-list-style-1 p-0 mb-0">
+											<li>
+												<span class="text-color-dark">Birthday:</span>
+												<span class="custom-text-color-2">1986 March 20</span>
+											</li>
+											<li>
+												<span class="text-color-dark">Marital:</span>
+												<span class="custom-text-color-2">Married</span>
+											</li>
+											<li>
+												<span class="text-color-dark">Nationality:</span>
+												<span class="custom-text-color-2">Egyptian</span>
+											</li>
+										</ul>
 									</div>
-									<h2>Strategy</h2>
-								</div>
-								<div class="col-lg-2">
-									<div class="process-image process-image-on-middle">
-										<img src="img/projects/0c.png" alt="" />
-										
+									<div class="col-md-6">
+										<ul class="custom-list-style-1 p-0 mb-0">
+											<li>
+												<span class="text-color-dark">Skype:</span>
+												<span class="custom-text-color-2"><a class="custom-text-color-2" href="skype:ahmed.haiba?chat">ahmed.haiba</a></span>
+											</li>
+											<li>
+												<span class="text-color-dark">PHONE:</span>
+												<span class="custom-text-color-2"><a class="custom-text-color-2" href="tel:+966540420790">+966 (540) 420 790</a></span>
+											</li>
+											<li>
+												<span class="text-color-dark">EMAIL:</span>
+												<span class="custom-text-color-2"><a class="custom-text-color-2" href="mailto:ahmed.haiba@hotmail.com">ahmed.haiba</a></span>
+											</li>
+										</ul>
 									</div>
-									<h2>Planning</h2>
 								</div>
-								<div class="col-lg-2">
-									<div class="process-image">
-										<img src="img/projects/0b.png" alt="" />
-										
+							</div>
+
+							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">About Me</h2>
+
+							<p class="custom-text-color-2">I'm a Web Developer, Programmer & a Photographer. I spend my free time traveling and taking photos of the places I visit.
+								please check my page and feel free to contact me.
+							</p>
+
+							
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="experience" class="section section-secondary section-no-border m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Experience</h2>
+							<section class="timeline custom-timeline" id="timeline">
+								<div class="timeline-body">
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-dark text-uppercase">
+													From
+													<span class="font-weight-semibold">Sep 2014</span>
+												</span>
+												<span class="to text-color-dark text-uppercase">
+													To
+													<span class="font-weight-semibold">Sep 2018</span>
+												</span>
+												<p class="text-color-dark">(4 Years)</p>
+												<span class="company text-color-dark font-weight-semibold">
+													PSF
+													<span class="company-location text-color-dark font-weight-normal text-uppercase">Jeddah - Saudi Arabia</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Front-End Web Developer & QMR</h4>
+												<p class="custom-text-color-2">Worked as a Front-End Web Developer and as a QMR for the ISO system in the company.</p>
+											</div>
+										</div>
+									</article>
+									<article class="timeline-box right custom-box-shadow-2">
+										<div class="row">
+											<div class="experience-info col-lg-3 col-sm-5 bg-color-primary">
+												<span class="from text-color-dark text-uppercase">
+													From
+													<span class="font-weight-semibold">Jan 2019</span>
+												</span>
+												<span class="to text-color-dark text-uppercase">
+													To
+													<span class="font-weight-semibold">Present</span>
+												</span>
+												<p class="text-color-dark"></p>
+												<span class="company text-color-dark font-weight-semibold">
+													SGAPCO
+													<span class="company-location text-color-dark font-weight-normal text-uppercase">Jeddah - Saudi Arabia</span>
+												</span>
+											</div>
+											<div class="experience-description col-lg-9 col-sm-7 bg-color-light">
+												<h4 class="text-color-dark font-weight-semibold">Programmer - Web Developer - Photographer</h4>
+												<p class="custom-text-color-2">Working as a Programmer, Web Developer & a Photographer.</p>
+											</div>
+										</div>
+									</article>
+									
+									<div class="timeline-bar"></div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="education" class="section section-no-border custom-bg-color-1 m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold m-0">Education</h2>
+							<div class="owl-carousel nav-bottom custom-dots-style-1 mb-0" data-plugin-options="{'items': 1, 'loop': false, 'dots': true, 'nav': false}">
+								<div class="row">
+									<div class="col-lg-6 col-sm-6 pb-4">
+										<div class="custom-box-details-2 bg-color-light custom-box-shadow-3">
+											<i class="icon-graduation icons text-color-primary"></i>
+											<h4 class="font-weight-semibold text-color-dark m-0">Arab Academy For Science Technology</h4>
+											<p class="custom-text-color-2 mb-1">MIS</p>
+											<strong class="text-color-primary">2007-2010</strong>
+										</div>
 									</div>
-									<h2>Building</h2>
+									<div class="col-lg-6 col-sm-6 pb-4">
+										<div class="custom-box-details-2 bg-color-light custom-box-shadow-3">
+											<i class="icon-graduation icons text-color-primary"></i>
+											<h4 class="font-weight-semibold text-color-dark m-0">Limkokwing University</h4>
+											<p class="custom-text-color-2 mb-1">Business Information Technology</p>
+											<strong class="text-color-primary">2010-2013</strong>
+										</div>
+									</div>
 								</div>
-								<div class="col-lg-4 ml-lg-auto">
-									<div class="project-image">
-										<div id="fcSlideshow" class="fc-slideshow">
-											<ul class="fc-slides">
-												<li><a href="portfolio-single-wide-slider.html"><img width="340" height="340" src="img/projects/pg01.jpg" alt="" /></a></li>
-												<li><a href="portfolio-single-wide-slider.html"><img width="340" height="340" src="img/projects/pg02.png" alt="" /></a></li>
-												<li><a href="portfolio-single-wide-slider.html"><img width="340" height="340" src="img/projects/pg03.jpg" alt="" /></a></li>
-											</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="skills" class="section section-no-border bg-color-light m-0">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6 col-lg-8 mb-4 mb-md-0">
+							<div class="row">
+								<div class="col-lg-6">
+									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Skills & Languages</h2>
+									<div class="progress-bars custom-progress-bars">
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>HTML</span>
+										</div>
+
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="90%"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>CSS</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="90%" data-appear-animation-delay="300"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Javascript</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="90%" data-appear-animation-delay="600"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>React</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="60%" data-appear-animation-delay="900"></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="progress-bars custom-progress-bars custom-md-margin-top-1">
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>NodeJS</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="60%"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>SQL</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="90%" data-appear-animation-delay="300"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>C#</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="80%" data-appear-animation-delay="600"></div>
+										</div>
+										<div class="progress-label text-color-dark font-weight-semibold text-uppercase text-2">
+											<span>Java</span>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar" data-appear-progress-animation="70%" data-appear-animation-delay="900"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4">
+							<div class="row">
+								<div class="col">
+									<div class="custom-box-details bg-color-light custom-box-shadow-1">
+										<h4 class="text-color-dark">Languages</h4>
+										<ul class="custom-list-style-1 p-0">
+											<li>
+												<span class="font-weight-semibold custom-max-width-1 text-color-dark"><img src="img/blank.gif" class="flag flag-us mr-1" alt="English">English:</span>
+												<span class="custom-text-color-2">Fluent</span>
+											</li>
+											<li>
+												<span class="font-weight-semibold custom-max-width-1 text-color-dark"><img src="img/blank.gif" class="flag flag-eg mr-1" alt="Spanish">Arabic:</span>
+												<span class="custom-text-color-2">Advanced</span>
+											</li>
+											<li>
+												<span class="font-weight-semibold custom-max-width-1 text-color-dark"><img src="img/blank.gif" class="flag flag-pt mr-1" alt="Française">Portuguese:</span>
+												<span class="custom-text-color-2">Intermediate</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="portfolio" class="section section-no-border bg-color-secondary m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">Portfolio</h2>
+							<ul class="nav nav-pills sort-source custom-nav-sort mb-4" data-sort-id="portfolio" data-option-key="filter">
+								<li class="nav-item active" data-option-value="*"><a class="nav-link text-dark active" href="#">Show All</a></li>
+								<li class="nav-item" data-option-value=".egypt"><a class="nav-link text-dark" href="#">Egypt</a></li>
+								<li class="nav-item" data-option-value=".mac"><a class="nav-link text-dark" href="#">Macedonia</a></li>
+								<li class="nav-item" data-option-value=".mal"><a class="nav-link text-dark" href="#">Malaysia</a></li>
+							</ul>
+							<div class="sort-destination-loader sort-destination-loader-showing">
+								<div class="row image-gallery sort-destination lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item egypt">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/01.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/01.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item mac">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/02.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/02.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item mac">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/03.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/03.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item egypt">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/04.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/04.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item mac">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/05.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/05.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item egypt">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/06.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/06.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item mac">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/07.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/07.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item egypt">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/08.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/08.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item mal">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/09.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/09.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item mal">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/10.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/10.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item mal">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/13.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/13.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item mal">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/12.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/12.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-12 col-sm-6 col-lg-3 isotope-item mac">
+										<div class="image-gallery-item mb-4 pb-3">
+											<a href="img/demos/resume/portfolio/14.jpg" class="lightbox-portfolio">
+												<span class="thumb-info custom-thumb-info-1">
+													<span class="thumb-info-wrapper">
+														<span class="thumb-info-plus"></span>
+														<img src="img/demos/resume/portfolio/14.jpg" class="img-fluid" alt="">
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+			<section id="blog" class="section section-no-border bg-color-light m-0">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">My Projects</h2>
+
+							<div class="row">
+								<div class="col-lg-6 mb-5 mb-lg-0">
+									<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
+										<div class="thumb-info-wrapper">
+											<a href="http://sgi-ksa.com/" target="_blank">
+												<img src="img/demos/resume/blog/blog-1.png" alt class="img-fluid" />
+											</a>
+										</div>
+										<div class="thumb-info-caption">
+											<div class="thumb-info-caption-text">
+												<h4 class="mb-2">
+													<a href="#" class="text-decoration-none text-color-dark font-weight-semibold">
+														SGI - Super Glass Industry
+													</a>
+												</h4>
+												<p class="custom-text-color-2">Check the website for more informations about the company and to check my work.</p>
+											</div>
+											<hr class="solid m-0 mt-4 mb-2">
+											<div class="row justify-content-between">
+												<div class="col-auto custom-blog-post-date text-uppercase font-weight-semibold text-color-dark text-2">
+													March 13-2019
+												</div>
+												<div class="col-auto custom-blog-post-share text-uppercase font-weight-semibold text-color-dark text-2">
+													<ul class="mb-0">
+														<li>
+															<a class="item-facebook text-decoration-none text-uppercase" href="https://www.facebook.com/superglass.industryksa" title="Facebook" target="_blank">Facebook</a>
+														</li>
+														<li>
+															<a class="item-twitter text-decoration-none text-uppercase" href="https://twitter.com/SGI79858649#" title="Twitter" target="_blank">Twitter</a>
+														</li>
+														<li>
+															<a class="item-google-plus text-decoration-none text-uppercase" href="https://www.youtube.com/watch?v=QCgITXurfe4" title="Youtube Video" target="_blank">Youtube</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="col-lg-6">
+									<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
+										<div class="thumb-info-wrapper">
+											<a href="http://round-office.com/" target="_blank">
+												<img src="img/demos/resume/blog/blog-2.png" alt class="img-fluid" />
+											</a>
+										</div>
+										<div class="thumb-info-caption">
+											<div class="thumb-info-caption-text">
+												<h4 class="mb-2">
+													<a href="#" class="text-decoration-none text-color-dark font-weight-semibold">
+														Round Office
+													</a>
+												</h4>
+												<p class="custom-text-color-2">Check the website for more informations about the company and to check my work.</p>
+											</div>
+											<hr class="solid m-0 mt-4 mb-2">
+											<div class="row justify-content-between">
+												<div class="col-auto custom-blog-post-date text-uppercase font-weight-semibold text-color-dark text-2">
+													Feb 20-2019
+												</div>
+												<div class="col-auto custom-blog-post-share text-uppercase font-weight-semibold text-color-dark text-2">
+													
+													<ul class="mb-0">
+														<li>
+															<a class="item-facebook text-decoration-none text-uppercase" href="https://www.facebook.com/Round-Office-145399965983500/" title="Facebook" target="_blank">Facebook</a>
+														</li>
+														<li>
+															<a class="item-twitter text-decoration-none text-uppercase" href="https://twitter.com/OfficeRound" title="witter" target="_blank">Twitter</a>
+														</li>
+														<li>
+															<a class="item-google-plus text-decoration-none text-uppercase" href="https://www.youtube.com/watch?v=0J9XiTRC7U8" title="Youtube Video" target="_blank">Youtube</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<div id="say-hello" class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 p-0">
+						<section class="section section-no-border bg-color-primary h-100 m-0">
+							<div class="row justify-content-end m-0">
+								<div class="col-half-section col-half-section-right mr-3">
+									
+									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Say Hello</h2>
+									<form id="contactForm" class="contact-form custom-form-style" action="php/contact-form.php" method="post">
+										<div class="contact-form-success alert alert-success d-none mt-4" id="contactSuccess">
+											<strong>Success!</strong> Your message has been sent to us.
+										</div>
+										<div class="contact-form-error alert alert-danger d-none mt-4" id="contactError">
+											<strong>Error!</strong> There was an error sending your message.
+											<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
 										</div>
 										
-									</div>
+										<div class="form-content">
+											<div class="form-control-custom">
+												<input type="text" class="form-control" name="name" placeholder="Your Name *" data-msg-required="This field is required." id="name" required="" />
+											</div>
+											<div class="form-control-custom">
+												<input type="text" class="form-control" name="subject" placeholder="Subject *" data-msg-required="This field is required." id="subject" required="" />
+											</div>
+											<div class="form-control-custom">
+												<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" placeholder="Message*" id="message" required="" aria-required="true"></textarea>
+											</div>
+											<input type="submit" class="btn btn-quaternary text-color-light text-uppercase font-weight-semibold outline-none custom-btn-style-2 custom-border-radius-1" value="Submit" />
+										</div>
+									</form>
+
 								</div>
 							</div>
-				
-						</div>
+						</section>
 					</div>
-				</div>
-				
-				<div class="container mb-5 pb-4">
-				
-					<div class="row">
-						<div class="col mb-4">
-							<hr class="my-5">
-						</div>
-					</div>
-				
-					
-				
-					<div class="row pt-4">
-						<div class="col">
-							<h2 class="mb-0 text-color-dark">Clients</h2>
-							<br>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 text-center">
-							<div class="owl-carousel owl-theme stage-margin rounded-nav"
-								data-plugin-options="{'margin': 10, 'loop': true, 'nav': true, 'dots': false, 'stagePadding': 40, 'items': 6, 'autoplay': true, 'autoplayTimeout': 3000}">
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust18-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust02-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust03-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust04-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust05-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust06-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust07-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust08-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust09-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust10-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust12-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust14-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust13-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust15-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="img/demos/construction/customers/cust17-min.jpg" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				
-				</div>
-				
-				
-				
-			</div>
- 
-			<footer id="footer" class="bg-color-primary border-top-0">
-				<div class="container py-4">
-					<div class="row py-5">
-						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-							<h5 class="text-3 mb-3 opacity-7">NEWSLETTER</h5>
-							<p class="pr-1 text-color-light">Keep up on our always evolving product features and technology. Enter
-								your e-mail address and subscribe to our newsletter.</p>
-							<div class="alert alert-success d-none" id="newsletterSuccess">
-								<strong>Success!</strong> You've been added to our email list.
-							</div>
-							<div class="alert alert-danger d-none" id="newsletterError"></div>
-							<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mr-4 mb-3 mb-md-0">
-								<div class="input-group input-group-rounded">
-									<input class="form-control form-control-sm bg-light" placeholder="Email Address"
-										name="newsletterEmail" id="newsletterEmail" type="text">
-									<span class="input-group-append">
-										<button class="btn btn-light text-color-dark" type="submit"><strong>GO!</strong></button>
-									</span>
-								</div>
-							</form>
-						</div>
-						<div class="col-md-2">
-							<h5 class="text-3 mb-3 opacity-7">SCAN ME</h5>
-							<div>
-								<img src="img/qr.png" alt="" width="124" height="124">
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 mb-4 mb-md-0">
-							<h5 class="text-3 mb-3 opacity-7">CONTACT US</h5>
-							<ul class="list list-icons list-icons-lg">
-								<li class="mb-1"><i class="far fa-dot-circle text-color-light"></i>
-									<p class="m-0 text-color-light">Saudi German Aluminium Products Co. Ltd Phase 3, Industrial City Sinayah P.O Box 8378 Jeddah 21482 K.S.A.</p>
-								</li>
-								<li class="mb-1"><i class="fa fa-phone text-color-light"></i>
-									<p class="m-0 text-color-light">+966 012 6355425</p>
-								</li>
-								<li class="mb-1"><i class="fa fa-fax text-color-light"></i>
-									<p class="m-0 text-color-light">+966 012 6081752</p>
-								</li>
-								<li class="mb-1"><i class="far fa-envelope text-color-light"></i>
-									<p class="m-0"><a class="text-color-light" href="mailto:ibrahim@sgi-ksa.com">info@sgi-ksa.com</a>
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-6 col-lg-2">
-							<h5 class="text-3 mb-3 opacity-7">FOLLOW US</h5>
-							<ul class="header-social-icons social-icons d-sm-block">
-								<li class="social-icons-facebook"><a href="https://www.facebook.com/superglass.industryksa" target="_blank"
-										title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-								<li class="social-icons-twitter"><a href="https://twitter.com/SGI79858649" target="_blank" title="Twitter"><i
-											class="fab fa-twitter"></i></a></li>
-								<li class="social-icons-linkedin"><a href="#" target="_blank" title="Linkedin"><i
-											class="fab fa-linkedin-in"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="footer-copyright bg-color-primary bg-color-scale-overlay bg-color-scale-overlay-1">
-					<div class="bg-color-scale-overlay-wrapper">
-						<div class="container py-2">
-							<div class="row py-4">
-								<div
-									class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
-									<a href="index.html" class="logo pr-0 pr-lg-3">
-										<img alt="Porto Website Template" src="img/logo02.png"  height="80">
+					<div class="col-lg-6 p-0">
+						<section class="section section-no-border h-100 m-0" style="background: url(img/demos/resume/contact/leather.jpg); background-size: cover;">
+							<div class="row m-0">
+								<div class="col-half-section col-half-section-left ml-3">
+									<a href="mailto:ahmed.haiba@hotmail.com" class="text-decoration-none">
+										<span class="feature-box custom-feature-box align-items-center mb-4">
+											<span class="custom-feature-box-icon">
+												<i class="icon-envelope icons text-color-light"></i>
+											</span>
+											<span class="feature-box-info">
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Email</span>
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">ahmed.haiba@hotmail.com</strong>
+											</span>
+										</span>
+									</a>
+									<a href="tel:+966540420790" class="text-decoration-none">
+										<span class="feature-box custom-feature-box align-items-center mb-4">
+											<span class="custom-feature-box-icon">
+												<i class="icon-phone icons text-color-light"></i>
+											</span>
+											<span class="feature-box-info">
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Phone</span>
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">+966 (540) 420 790</strong>
+											</span>
+										</span>
+									</a>
+									<a href="skype:ahmed.haiba?chat" class="text-decoration-none">
+										<span class="feature-box custom-feature-box align-items-center mb-4">
+											<span class="custom-feature-box-icon">
+												<i class="icon-social-skype icons text-color-light"></i>
+											</span>
+											<span class="feature-box-info">
+												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Skype</span>
+												<strong class="font-weight-light text-color-light custom-opacity-effect-1">ahmed.haiba</strong>
+											</span>
+										</span>
 									</a>
 								</div>
-								<div
-									class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-									<p class="text-color-light"> &ensp;© Copyright 2019. All Rights Reserved.</p>
-								</div>
-								<div class="col-lg-3 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-									<p class="text-color-light"> Created By : Ahmed Haiba</p>
-								</div>
-								
-								
-								<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
-									<nav id="sub-menu">
-										<ul>
-											<li class="border-0"><i class="fas fa-angle-right text-color-light"></i><a
-													href="company.html" class="ml-1 text-decoration-none text-color-light">
-													Company</a></li>
-											<li class="border-0"><i class="fas fa-angle-right text-color-light"></i><a
-													href="contact.html" class="ml-1 text-decoration-none text-color-light">
-													Contact Us</a></li>
-										</ul>
-									</nav>
-								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+
+			<footer id="footer" class="m-0 p-0">
+				<div class="footer-copyright bg-color-light m-0">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 m-0">
+								<p class="custom-text-color-2">© Copyright 2019. Ahmed Haiba.</p>
 							</div>
 						</div>
 					</div>
@@ -463,14 +816,19 @@
 		<!-- Current Page Vendor and Views -->
 		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
-		<script src="js/views/view.home.js"></script>
+
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+
+		<!-- Demo -->
+		<script src="js/demos/demo-resume.js"></script>
 		
 		<!-- Theme Custom -->
 		<script src="js/custom.js"></script>
 		
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>
@@ -483,6 +841,7 @@
 			ga('send', 'pageview');
 		</script>
 		 -->
+
 
 	</body>
 </html>
